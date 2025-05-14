@@ -21,9 +21,9 @@ Each dataset contains synthetic turbulence-degraded imagery, offering diverse de
 ### 📁 Folders
 
 You will find **three main training folders**, one for each dataset:
-- `train_otis/`
-- `train_heatchamber/`
-- `train_atsync/`
+- `OTIS_Dataset/`
+- `HeatChamber_Dataset/`
+- `ATSync_Dataset/`
 
 Each folder contains:
 - `train.py` – a customized training script based on ATNet’s original implementation.
