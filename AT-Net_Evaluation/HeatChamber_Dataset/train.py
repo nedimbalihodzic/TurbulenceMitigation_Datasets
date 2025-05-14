@@ -52,7 +52,7 @@ print('learning_rate: {}\ncrop_size: {}\ntrain_batch_size: {}\nval_batch_size: {
 # --- Set category-specific hyper-parameters  --- #
 if category == 'distort':
     num_epochs = 50
-    train_data_dir = '/content/OTIS_Dataset/'
+    train_data_dir = '/content/HeatChamber_Dataset/'
     #val_data_dir = '/media/labuser/cb8bb1ad-451a-4aa4-870c-2d3eeafe2525/Tubfaces89/300M/tubimages/'
 elif category == 'dehaze':
     num_epochs = 10
