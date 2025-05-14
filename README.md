@@ -1,10 +1,10 @@
-# ATNet Dataset Evaluation
+# ATNet and TurbNet Dataset Evaluation
 
-This repository is designed to evaluate the performance and generalization capabilities of [AT-Net](https://github.com/rajeevyasarla/AT-Net) on different publicly available turbulence mitigation datasets.
+This repository is designed to evaluate the performance and generalization capabilities of [AT-Net](https://github.com/rajeevyasarla/AT-Net) and [TurbNet](https://github.com/VITA-Group/TurbNet/tree/main) on different publicly available turbulence mitigation datasets.
 
 ## 📌 Objective
 
-The goal of this repository is to **test the impact of training ATNet** on three different datasets and analyze how well the network generalizes across varying types of turbulence distortion.
+The goal of this repository is to **test the impact of training ATNet and TurbNet** on three different datasets and analyze how well the network generalizes across varying types of turbulence distortion.
 
 ## 📂 Datasets
 
@@ -14,7 +14,7 @@ We use **three public datasets** for training and evaluation:
 2. **HeatChamber Dataset**  
 3. **ATSync Dataset**
 
-Each dataset contains real-world or synthetic turbulence-degraded imagery, offering diverse degradation patterns. We selected **1800 images** across these datasets for training and **200 unseen images** (not included in training) for evaluation.
+Each dataset contains synthetic turbulence-degraded imagery, offering diverse degradation patterns. We selected **1800 images** across these datasets for training and **200 unseen images** (not included in training) for evaluation.
 
 ## 🛠️ Structure
 
@@ -38,7 +38,7 @@ Each training loader (`TrainData` class) ensures that the correct **ground truth
 
 ## ▶️ How to Use
 
-1. Clone the original [AT-Net repository](https://github.com/rajeevyasarla/AT-Net).
+1. Clone the original [AT-Net repository](https://github.com/rajeevyasarla/AT-Net) or [TurbNet repository](https://github.com/VITA-Group/TurbNet/tree/main).
 2. Replace the original `train.py` and dataset loader with the ones provided in the respective training folders.
 3. Run training from any of the three dataset folders:
    ```bash
